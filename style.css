@@ -195,3 +195,9 @@ a:focus-visible { outline: 3px solid var(--gold); outline-offset: -3px; }
 .opt.soon .get { background: #eef0f4; color: var(--muted); }
 .opt.soon .txt b { color: #7c8596; }
 .opt:focus-visible, .sheet-x:focus-visible { outline: 3px solid var(--gold); outline-offset: 2px; }
+
+/* 이모지 아이콘 */
+.emo { font-size: 24px; line-height: 1; }
+
+/* 면 아이콘(Font Awesome) */
+.ico svg.fa { fill: none; stroke: var(--navy); stroke-width: 46; stroke-linecap: round; stroke-linejoin: round; width: 24px; height: 24px; }
