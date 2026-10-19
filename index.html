@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#1c2a48">
+  <title>의정부교회</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Noto+Serif+KR:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <svg class="cross" viewBox="0 0 24 32" aria-hidden="true"><path d="M10 0h4v10h8v4h-8v18h-4V14H2v-4h8z"/></svg>
+    <h1>의정부교회</h1>
+    <p class="sub">교회 소식과 앱을 한곳에서 만나요</p>
+  </header>
+
+  <main>
+    <a class="hero" id="hero" href="#" data-id="sunday">
+      <span class="hero-icon" id="hero-icon"></span>
+      <span class="hero-text">
+        <strong>주일말씀 다시보기</strong>
+        <small>유튜브에서 바로 보기</small>
+      </span>
+    </a>
+
+    <div id="sections"></div>
+  </main>
+
+  <footer>
+    <p>의정부교회 통합 포털</p>
+  </footer>
+
+  <div id="sheet" class="sheet" hidden>
+    <div class="sheet-bg" data-close></div>
+    <div class="sheet-panel" role="dialog" aria-modal="true" aria-labelledby="sheet-title">
+      <div class="sheet-head">
+        <h2 id="sheet-title"></h2>
+        <button class="sheet-x" data-close aria-label="닫기">&times;</button>
+      </div>
+      <p class="sheet-sub">사용할 버전을 골라 주세요</p>
+      <div id="sheet-body"></div>
+    </div>
+  </div>
+
+  <div id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
