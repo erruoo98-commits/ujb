@@ -1,4 +1,4 @@
-/* =============================================================
+/* ============================================================
    링크 설정 — 주소를 모르는 항목은 url을 ''(빈칸)으로 두면
    "준비 중"으로 표시됩니다. 주소가 생기면 이 파일에서 url만 채우세요.
    ============================================================ */
@@ -23,6 +23,7 @@ const SECTIONS = [
       { name: '의정부교회 홈페이지',          desc: '깨사모 의정부교회 홈페이지',                   icon: 'news',   url: 'https://ujb.jbch.org/' },
       { name: '주일포토 스토리', desc: '주일소식',    icon: 'camera', url: 'https://ujb.jbch.org/newsnotice/news/list.php?flag=1&chId=87' },
       { name: '블로그 _주일말씀 소식',     desc: '주일말씀 리마인드',        icon: 'blog',   url: 'https://blog.naver.com/soguem26' },
+      { name: '생명기도수첩',     desc: '함께 드리는 기도',        icon: 'pray',   url: 'https://pray.jbch.org/' },
     ],
   },
   {
