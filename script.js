@@ -23,7 +23,7 @@ const SECTIONS = [
       { name: '의정부교회 홈페이지',          desc: '깨사모 의정부교회 홈페이지',                   icon: 'news',   url: 'https://ujb.jbch.org/' },
       { name: '주일포토 스토리', desc: '주일소식',    icon: 'camera', url: 'https://ujb.jbch.org/newsnotice/news/list.php?flag=1&chId=87' },
       { name: '블로그 _주일말씀 소식',     desc: '주일말씀 리마인드',        icon: 'blog',   url: 'https://blog.naver.com/soguem26' },
-      { name: '생명기도수첩',     desc: '함께 드리는 기도',        icon: 'pray',   url: 'https://pray.jbch.org/' },
+      { name: '생명기도수첩',     desc: '함께 드리는 기도',        icon: 'pray',  url: 'https://pray.jbch.org/' },
     ],
   },
   {
@@ -43,6 +43,7 @@ const SECTIONS = [
 
 /* 아이콘 */
 const ICONS = {
+  pray:   '<path d="M12 4c-3.5 2-6 5.5-6 10l3 6h3"/><path d="M12 4c3.5 2 6 5.5 6 10l-3 6h-3"/><path d="M12 4v16"/>',
   play:   '<polygon points="7 4 20 12 7 20 7 4"/>',
   blog:   '<path d="M5 3h14v18H5z"/><path d="M9 8h6M9 12h6M9 16h4"/>',
   news:   '<rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/>',
