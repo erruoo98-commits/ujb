@@ -10,8 +10,8 @@ const SHEETS = {
   memo: {
     title: '교회학교 암송수첩',
     options: [
-      { name: '안드로이드(갤럭시) 버전', desc: '휴대폰에 설치해서 사용해요', icon: 'phone', url: 'https://apps.jbch.org/?p=myapp&act=detail&id=37&from=about' },
-      { name: '아이폰 버전',     desc: '브라우저에서 바로 사용해요', icon: 'globe', url: 'https://apps.jbch.org/?p=myapp&act=detail&id=36&from=about' },
+      { name: '안드로이드(갤럭시) 버전', desc: '휴대폰에 설치해서 사용해요', icon: 'phone', url: 'https://play.google.com/store/apps/details?id=com.church.memory.app' },
+      { name: '아이폰 버전',     desc: '브라우저에서 바로 사용해요', icon: 'globe', url: 'https://apps.apple.com/kr/app/%EA%B5%90%ED%9A%8C%ED%95%99%EA%B5%90-%EC%95%94%EC%86%A1-%EC%88%98%EC%B2%A9/id6802671002' },
     ],
   },
 };
